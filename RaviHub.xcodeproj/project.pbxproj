@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41127A8D29CB476C006BD8CD /* RaviHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41127A8C29CB476C006BD8CD /* RaviHubApp.swift */; };
+		41127A8F29CB476C006BD8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41127A8E29CB476C006BD8CD /* ContentView.swift */; };
+		41127A9129CB476D006BD8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41127A9029CB476D006BD8CD /* Assets.xcassets */; };
+		41127A9429CB476D006BD8CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41127A9329CB476D006BD8CD /* Preview Assets.xcassets */; };
+		4124301F29CE4B5F00225568 /* SalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4124301E29CE4B5F00225568 /* SalesView.swift */; };
+		4124302129CE4B6C00225568 /* WholesaleOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4124302029CE4B6C00225568 /* WholesaleOrdersView.swift */; };
+		4169642A29CCB6E500EA4B01 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169642929CCB6E500EA4B01 /* Common.swift */; };
+		4198EA2729CB54ED005B2573 /* IBMPlexSansHebrew-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4198EA2429CB54ED005B2573 /* IBMPlexSansHebrew-Regular.ttf */; };
+		4198EA2829CB54ED005B2573 /* IBMPlexSansHebrew-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4198EA2529CB54ED005B2573 /* IBMPlexSansHebrew-SemiBold.ttf */; };
+		4198EA2929CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4198EA2629CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf */; };
+		4198EA2B29CB5842005B2573 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4198EA2A29CB5842005B2573 /* AddView.swift */; };
+		41E89E9629D1B02600C91B9F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E89E9529D1B02600C91B9F /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41127A8929CB476C006BD8CD /* RaviHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaviHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41127A8C29CB476C006BD8CD /* RaviHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaviHubApp.swift; sourceTree = "<group>"; };
+		41127A8E29CB476C006BD8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41127A9029CB476D006BD8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41127A9329CB476D006BD8CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41127AA129CB49A3006BD8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4124301E29CE4B5F00225568 /* SalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesView.swift; sourceTree = "<group>"; };
+		4124302029CE4B6C00225568 /* WholesaleOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholesaleOrdersView.swift; sourceTree = "<group>"; };
+		4169642929CCB6E500EA4B01 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4198EA2429CB54ED005B2573 /* IBMPlexSansHebrew-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansHebrew-Regular.ttf"; sourceTree = "<group>"; };
+		4198EA2529CB54ED005B2573 /* IBMPlexSansHebrew-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansHebrew-SemiBold.ttf"; sourceTree = "<group>"; };
+		4198EA2629CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansHebrew-Bold.ttf"; sourceTree = "<group>"; };
+		4198EA2A29CB5842005B2573 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		41E89E9529D1B02600C91B9F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41127A8629CB476C006BD8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41127A8029CB476C006BD8CD = {
+			isa = PBXGroup;
+			children = (
+				41127A8B29CB476C006BD8CD /* RaviHub */,
+				41127A8A29CB476C006BD8CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41127A8A29CB476C006BD8CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41127A8929CB476C006BD8CD /* RaviHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41127A8B29CB476C006BD8CD /* RaviHub */ = {
+			isa = PBXGroup;
+			children = (
+				41127AA129CB49A3006BD8CD /* Info.plist */,
+				41127A8C29CB476C006BD8CD /* RaviHubApp.swift */,
+				4198EA2329CB54ED005B2573 /* ffonts */,
+				41127A8E29CB476C006BD8CD /* ContentView.swift */,
+				4169642929CCB6E500EA4B01 /* Common.swift */,
+				4198EA2A29CB5842005B2573 /* AddView.swift */,
+				4124301E29CE4B5F00225568 /* SalesView.swift */,
+				4124302029CE4B6C00225568 /* WholesaleOrdersView.swift */,
+				41127A9029CB476D006BD8CD /* Assets.xcassets */,
+				41E89E9529D1B02600C91B9F /* LoginView.swift */,
+				41127A9229CB476D006BD8CD /* Preview Content */,
+			);
+			path = RaviHub;
+			sourceTree = "<group>";
+		};
+		41127A9229CB476D006BD8CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41127A9329CB476D006BD8CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4198EA2329CB54ED005B2573 /* ffonts */ = {
+			isa = PBXGroup;
+			children = (
+				4198EA2429CB54ED005B2573 /* IBMPlexSansHebrew-Regular.ttf */,
+				4198EA2529CB54ED005B2573 /* IBMPlexSansHebrew-SemiBold.ttf */,
+				4198EA2629CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf */,
+			);
+			path = ffonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41127A8829CB476C006BD8CD /* RaviHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41127A9729CB476D006BD8CD /* Build configuration list for PBXNativeTarget "RaviHub" */;
+			buildPhases = (
+				41127A8529CB476C006BD8CD /* Sources */,
+				41127A8629CB476C006BD8CD /* Frameworks */,
+				41127A8729CB476C006BD8CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaviHub;
+			packageProductDependencies = (
+			);
+			productName = RaviHub;
+			productReference = 41127A8929CB476C006BD8CD /* RaviHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41127A8129CB476C006BD8CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					41127A8829CB476C006BD8CD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 41127A8429CB476C006BD8CD /* Build configuration list for PBXProject "RaviHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41127A8029CB476C006BD8CD;
+			packageReferences = (
+				41A1C37F29D05CAE000A6CF5 /* XCRemoteSwiftPackageReference "swiftui-currency-field" */,
+			);
+			productRefGroup = 41127A8A29CB476C006BD8CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41127A8829CB476C006BD8CD /* RaviHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41127A8729CB476C006BD8CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41127A9429CB476D006BD8CD /* Preview Assets.xcassets in Resources */,
+				4198EA2829CB54ED005B2573 /* IBMPlexSansHebrew-SemiBold.ttf in Resources */,
+				4198EA2929CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf in Resources */,
+				4198EA2729CB54ED005B2573 /* IBMPlexSansHebrew-Regular.ttf in Resources */,
+				41127A9129CB476D006BD8CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41127A8529CB476C006BD8CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4169642A29CCB6E500EA4B01 /* Common.swift in Sources */,
+				41E89E9629D1B02600C91B9F /* LoginView.swift in Sources */,
+				41127A8F29CB476C006BD8CD /* ContentView.swift in Sources */,
+				41127A8D29CB476C006BD8CD /* RaviHubApp.swift in Sources */,
+				4124301F29CE4B5F00225568 /* SalesView.swift in Sources */,
+				4124302129CE4B6C00225568 /* WholesaleOrdersView.swift in Sources */,
+				4198EA2B29CB5842005B2573 /* AddView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41127A9529CB476D006BD8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41127A9629CB476D006BD8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41127A9829CB476D006BD8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaviHub/Preview Content\"";
+				DEVELOPMENT_TEAM = JPXSGQNS89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaviHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kikra;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviheyne.RaviHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41127A9929CB476D006BD8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaviHub/Preview Content\"";
+				DEVELOPMENT_TEAM = JPXSGQNS89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaviHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kikra;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviheyne.RaviHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41127A8429CB476C006BD8CD /* Build configuration list for PBXProject "RaviHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41127A9529CB476D006BD8CD /* Debug */,
+				41127A9629CB476D006BD8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41127A9729CB476D006BD8CD /* Build configuration list for PBXNativeTarget "RaviHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41127A9829CB476D006BD8CD /* Debug */,
+				41127A9929CB476D006BD8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41A1C37F29D05CAE000A6CF5 /* XCRemoteSwiftPackageReference "swiftui-currency-field" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jtrinc/swiftui-currency-field.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 41127A8129CB476C006BD8CD /* Project object */;
+}
