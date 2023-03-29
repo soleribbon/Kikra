@@ -19,6 +19,10 @@
 		4198EA2929CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4198EA2629CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf */; };
 		4198EA2B29CB5842005B2573 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4198EA2A29CB5842005B2573 /* AddView.swift */; };
 		41E89E9629D1B02600C91B9F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E89E9529D1B02600C91B9F /* LoginView.swift */; };
+		41F7CB1629D30D4A00EFE73E /* Focuser in Frameworks */ = {isa = PBXBuildFile; productRef = 41F7CB1529D30D4A00EFE73E /* Focuser */; };
+		41F7CB1C29D315F600EFE73E /* Drops in Frameworks */ = {isa = PBXBuildFile; productRef = 41F7CB1B29D315F600EFE73E /* Drops */; };
+		41F7CB1E29D32AAF00EFE73E /* PredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7CB1D29D32AAF00EFE73E /* PredictionView.swift */; };
+		41F7CB2429D3380200EFE73E /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 41F7CB2329D3380200EFE73E /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,7 @@
 		4198EA2629CB54ED005B2573 /* IBMPlexSansHebrew-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansHebrew-Bold.ttf"; sourceTree = "<group>"; };
 		4198EA2A29CB5842005B2573 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		41E89E9529D1B02600C91B9F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		41F7CB1D29D32AAF00EFE73E /* PredictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F7CB2429D3380200EFE73E /* SwiftUICharts in Frameworks */,
+				41F7CB1629D30D4A00EFE73E /* Focuser in Frameworks */,
+				41F7CB1C29D315F600EFE73E /* Drops in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +81,7 @@
 				4198EA2329CB54ED005B2573 /* ffonts */,
 				41127A8E29CB476C006BD8CD /* ContentView.swift */,
 				4169642929CCB6E500EA4B01 /* Common.swift */,
+				41F7CB1D29D32AAF00EFE73E /* PredictionView.swift */,
 				4198EA2A29CB5842005B2573 /* AddView.swift */,
 				4124301E29CE4B5F00225568 /* SalesView.swift */,
 				4124302029CE4B6C00225568 /* WholesaleOrdersView.swift */,
@@ -118,6 +127,9 @@
 			);
 			name = RaviHub;
 			packageProductDependencies = (
+				41F7CB1529D30D4A00EFE73E /* Focuser */,
+				41F7CB1B29D315F600EFE73E /* Drops */,
+				41F7CB2329D3380200EFE73E /* SwiftUICharts */,
 			);
 			productName = RaviHub;
 			productReference = 41127A8929CB476C006BD8CD /* RaviHub.app */;
@@ -148,7 +160,9 @@
 			);
 			mainGroup = 41127A8029CB476C006BD8CD;
 			packageReferences = (
-				41A1C37F29D05CAE000A6CF5 /* XCRemoteSwiftPackageReference "swiftui-currency-field" */,
+				41F7CB1429D30D4A00EFE73E /* XCRemoteSwiftPackageReference "swift-focuser" */,
+				41F7CB1A29D315F600EFE73E /* XCRemoteSwiftPackageReference "Drops" */,
+				41F7CB2229D3380200EFE73E /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 41127A8A29CB476C006BD8CD /* Products */;
 			projectDirPath = "";
@@ -182,6 +196,7 @@
 				4169642A29CCB6E500EA4B01 /* Common.swift in Sources */,
 				41E89E9629D1B02600C91B9F /* LoginView.swift in Sources */,
 				41127A8F29CB476C006BD8CD /* ContentView.swift in Sources */,
+				41F7CB1E29D32AAF00EFE73E /* PredictionView.swift in Sources */,
 				41127A8D29CB476C006BD8CD /* RaviHubApp.swift in Sources */,
 				4124301F29CE4B5F00225568 /* SalesView.swift in Sources */,
 				4124302129CE4B6C00225568 /* WholesaleOrdersView.swift in Sources */,
@@ -392,15 +407,49 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		41A1C37F29D05CAE000A6CF5 /* XCRemoteSwiftPackageReference "swiftui-currency-field" */ = {
+		41F7CB1429D30D4A00EFE73E /* XCRemoteSwiftPackageReference "swift-focuser" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jtrinc/swiftui-currency-field.git";
+			repositoryURL = "https://github.com/art-technologies/swift-focuser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		41F7CB1A29D315F600EFE73E /* XCRemoteSwiftPackageReference "Drops" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/omaralbeik/Drops.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		41F7CB2229D3380200EFE73E /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41F7CB1529D30D4A00EFE73E /* Focuser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41F7CB1429D30D4A00EFE73E /* XCRemoteSwiftPackageReference "swift-focuser" */;
+			productName = Focuser;
+		};
+		41F7CB1B29D315F600EFE73E /* Drops */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41F7CB1A29D315F600EFE73E /* XCRemoteSwiftPackageReference "Drops" */;
+			productName = Drops;
+		};
+		41F7CB2329D3380200EFE73E /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41F7CB2229D3380200EFE73E /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41127A8129CB476C006BD8CD /* Project object */;
 }

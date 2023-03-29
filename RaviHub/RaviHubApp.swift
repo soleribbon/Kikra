@@ -12,6 +12,7 @@ struct RaviHubApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView().environmentObject(StoreViewModel())
+            
         }
     }
 }

@@ -1,12 +1,39 @@
 {
   "pins" : [
     {
-      "identity" : "swiftui-currency-field",
+      "identity" : "chartview",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/jtrinc/swiftui-currency-field.git",
+      "location" : "https://github.com/AppPear/ChartView.git",
       "state" : {
-        "revision" : "8a0f3f26695710464ca8a0a7ddba2f3a6b2f2f2d",
-        "version" : "1.0.2"
+        "revision" : "9115a992c91fa19cbb4f2241084240d38654a1fc",
+        "version" : "1.5.5"
+      }
+    },
+    {
+      "identity" : "drops",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/omaralbeik/Drops.git",
+      "state" : {
+        "revision" : "f4eabe3e4e5da69e5205a69a5ddc0effd4a90519",
+        "version" : "1.6.1"
+      }
+    },
+    {
+      "identity" : "swift-focuser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/art-technologies/swift-focuser.git",
+      "state" : {
+        "revision" : "f874246f370218994469b74939b88d564be1f810",
+        "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/SwiftUI-Introspect.git",
+      "state" : {
+        "revision" : "c18951c747ab62af7c15e17a81bd37d4fd5a9979",
+        "version" : "0.2.3"
       }
     }
   ],

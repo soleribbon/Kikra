@@ -116,6 +116,9 @@ struct ContentView: View {
         }.fullScreenCover(isPresented: $showAddSaleModal){
             AddView()
         }
+        .onAppear{
+                        storeViewModel.loadData()
+          }
     }
 }
 struct ContentView_Previews: PreviewProvider {

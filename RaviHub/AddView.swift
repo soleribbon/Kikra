@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Focuser
+import Drops
 
 
 enum OrderType {
@@ -13,6 +15,15 @@ enum OrderType {
     case wholesale
 }
 
+
+
+enum FormFieldsSale {
+    case itemsSold, totalPrice, customerRef
+}
+
+enum FormFieldsWholesale {
+    case storeName, productName, totalQuantity, totalPrice
+}
 
 
 
@@ -31,7 +42,31 @@ struct AddView: View {
     
     
     
-    @State private var saleInFocus = false
+    
+    let saleDrop = Drop(
+        title: "SALE ADDED",
+        icon: UIImage(systemName: "checkmark"),
+        position: .top,
+        duration: 4.0,
+        accessibility: "Alert: SALE ADDED"
+    )
+    
+    let wholesaleDrop = Drop(
+        title: "WHOLESALE ORDER ADDED",
+        icon: UIImage(systemName: "checkmark"),
+        position: .top,
+        duration: 4.0,
+        accessibility: "Alert: WHOLESALE ORDER ADDED"
+    )
+    
+
+
+    
+
+    
+    @FocusStateLegacy var focusedSaleField: FormFieldsSale?
+    
+    @FocusStateLegacy var focusedWholesaleField: FormFieldsWholesale?
 
     
     
@@ -77,6 +112,8 @@ struct AddView: View {
                             
                             TextField("2 peaches", text: $salesSystem.currentSale.itemsSold)
                                 .textFieldStyle(TappableTextFieldStyle())
+                                .focusedLegacy($focusedSaleField, equals: .itemsSold)
+
 
                             
                             Text("Total Price")
@@ -85,6 +122,7 @@ struct AddView: View {
                             TextField("100", text: $salesSystem.currentSale.totalPrice)
                                 .textFieldStyle(TappableTextFieldStyle())
                                 .keyboardType(.decimalPad)
+                                .focusedLegacy($focusedSaleField, equals: .totalPrice)
                                
                             
                             Text("Customer Ref.")
@@ -92,6 +130,7 @@ struct AddView: View {
                             
                             TextField("Friend of friend", text: $salesSystem.currentSale.customerRef)
                                 .textFieldStyle(TappableTextFieldStyle())
+                                .focusedLegacy($focusedSaleField, equals: .customerRef)
                             
                             HStack {
                                 Picker("Payment Method", selection: $salesSystem.currentSale.paymentMethod) {
@@ -143,12 +182,14 @@ struct AddView: View {
                         
                         TextField("Nectars", text: $salesSystem.currentWholesaleOrder.storeName)
                             .textFieldStyle(TappableTextFieldStyle())
+                            .focusedLegacy($focusedWholesaleField, equals: .storeName)
                         
                         Text("Product Name")
                             .textfieldLabelStyle()
                         
                         TextField("Peach Hush", text: $salesSystem.currentWholesaleOrder.itemName)
                             .textFieldStyle(TappableTextFieldStyle())
+                            .focusedLegacy($focusedWholesaleField, equals: .productName)
                         
                         Text("Total Quantity")
                             .textfieldLabelStyle()
@@ -163,6 +204,7 @@ struct AddView: View {
                         ))
                         .textFieldStyle(TappableTextFieldStyle())
                         .keyboardType(.numberPad)
+                        .focusedLegacy($focusedWholesaleField, equals: .totalQuantity)
                         
                         
                         Text("Total Price")
@@ -175,6 +217,7 @@ struct AddView: View {
                         TextField("100.00", text: totalPriceString)
                             .textFieldStyle(TappableTextFieldStyle())
                             .keyboardType(.decimalPad)
+                            .focusedLegacy($focusedWholesaleField, equals: .totalPrice)
                         
                         
                         
@@ -218,6 +261,8 @@ struct AddView: View {
                         storeViewModel.storedSales.append(salesSystem.currentSale)
                         storeViewModel.saveData()
                         
+                        Drops.show(saleDrop)
+
                         StoreViewModel().successHaptic()
                         presentationMode.wrappedValue.dismiss()
                         
@@ -239,6 +284,9 @@ struct AddView: View {
                         storeViewModel.storedWholesaleOrders.append(salesSystem.currentWholesaleOrder)
                         storeViewModel.saveData()
                         StoreViewModel().successHaptic()
+
+                        Drops.show(wholesaleDrop)
+
                         presentationMode.wrappedValue.dismiss()
                         
                         
@@ -314,6 +362,43 @@ struct AddView: View {
 }
 
 
+
+
+extension FormFieldsSale: FocusStateCompliant {
+
+    static var last: FormFieldsSale {
+        .customerRef
+    }
+
+    var next: FormFieldsSale? {
+        switch self {
+        case .itemsSold:
+            return .totalPrice
+        case .totalPrice:
+            return .customerRef
+        default: return nil
+        }
+    }
+}
+
+extension FormFieldsWholesale: FocusStateCompliant {
+
+    static var last: FormFieldsWholesale {
+        .totalPrice
+    }
+
+    var next: FormFieldsWholesale? {
+        switch self {
+        case .storeName:
+            return .productName
+        case .productName:
+            return .totalQuantity
+        case .totalQuantity:
+            return .totalPrice
+        default: return nil
+        }
+    }
+}
 
 
 struct TappableTextFieldStyle: TextFieldStyle {

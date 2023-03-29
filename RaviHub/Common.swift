@@ -41,6 +41,7 @@ struct WholesaleOrder: Hashable, Codable {
 class SalesSystem: ObservableObject {
     @Published var currentSale = Sale()
     @Published var currentWholesaleOrder = WholesaleOrder()
+
 }
 
 class StoreViewModel: ObservableObject {
@@ -134,12 +135,15 @@ class StoreViewModel: ObservableObject {
         let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         let wholesaleOrdersFileURL = documentsDirectory.appendingPathComponent("wholesaleOrders.json")
         let salesFileURL = documentsDirectory.appendingPathComponent("sales.json")
+        print("Documents Directory Path: \(documentsDirectory.absoluteString)")
+
         do {
             
             let wholesaleOrdersData = try Data(contentsOf: wholesaleOrdersFileURL)
             let salesData = try Data(contentsOf: salesFileURL)
             storedWholesaleOrders = try JSONDecoder().decode([WholesaleOrder].self, from: wholesaleOrdersData)
             storedSales = try JSONDecoder().decode([Sale].self, from: salesData)
+            print("load data run...fixing needed")
         } catch {
             print(error)
         }
@@ -197,7 +201,9 @@ struct Common {
                 
                 Spacer()
                 
-            }.padding()
+            }
+            .padding(.top)
+            .padding(.horizontal)
         }
     }
     
