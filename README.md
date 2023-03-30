@@ -1,10 +1,15 @@
-
+<style>
+ img {
+   background: #f0f0f0;
+   padding: 10px;
+ }
+ </style> 
 
 <div class="section">
   <h1>🚀 Kikra</h1>
   <h2>The stylish sales tracker for savvy small business owners</h2>
 
-  <p float="left">
+  <p class="images" float="left">
     <img src="https://user-images.githubusercontent.com/25287442/228870512-7853526f-3572-4440-8ba4-61fa1a1d892f.png" alt="" width="200"/>
     <img src="https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png" alt="" width="200"/>
   </p>
