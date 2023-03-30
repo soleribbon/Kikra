@@ -16,10 +16,14 @@
 <p float="left">
   
 <img src="https://user-images.githubusercontent.com/25287442/228870375-92e69395-1b33-4b6b-95de-7be39f9ec479.png" alt="" width="200"/>
-  <img src="https://user-images.githubusercontent.com/25287442/228870712-73221a4d-cb20-499d-90e5-644d6f037136.png" alt="" width="200"/>
-<img src="https://user-images.githubusercontent.com/25287442/228870652-791343e9-4059-4cb1-87cd-45eb2601f9b9.png" alt="" width="200"/>
+<img src="https://user-images.githubusercontent.com/25287442/228874064-ab6d0672-dcfe-4712-acfc-20e6cda5fefe.png" alt="" width="200"/>
+<img src="https://user-images.githubusercontent.com/25287442/228874140-2487d378-76c5-415d-a5e1-925a4b74f53b.png" alt="" width="200"/>
+<img src="https://user-images.githubusercontent.com/25287442/228874172-d5036125-8c54-4542-a481-ed3f95f996fc.png" alt="" width="200"/>
 
-<img src="https://user-images.githubusercontent.com/25287442/228872649-2131752a-7f98-42b2-9925-2dc056acf1f2.png" alt="" width="200"/>
+
+
+
+
 </p>
 
 - Ability to view past sales information (+ delete sale function)
