@@ -1,7 +1,6 @@
 # Kikra
 ## A sales tracker for small business owners.
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 11 06](https://user-images.githubusercontent.com/25287442/228870512-7853526f-3572-4440-8ba4-61fa1a1d892f.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 01 22](https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 11 06](https://user-images.githubusercontent.com/25287442/228870512-7853526f-3572-4440-8ba4-61fa1a1d892f.png) ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 01 22](https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png)
 
 ### Sales, Wholesale Orders, & Total Profit
 - Log sales info (items sold, customer reference, sale price, etc...) 
@@ -18,6 +17,5 @@
 VITO SOFTWARE ---> [VISIT](https://raviheyne.com)
 
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 01 36](https://user-images.githubusercontent.com/25287442/228870652-791343e9-4059-4cb1-87cd-45eb2601f9b9.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 11 11](https://user-images.githubusercontent.com/25287442/228870712-73221a4d-cb20-499d-90e5-644d6f037136.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 01 36](https://user-images.githubusercontent.com/25287442/228870652-791343e9-4059-4cb1-87cd-45eb2601f9b9.png)![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 11 11](https://user-images.githubusercontent.com/25287442/228870712-73221a4d-cb20-499d-90e5-644d6f037136.png)
 
