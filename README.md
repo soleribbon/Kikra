@@ -1,6 +1,8 @@
 # Kikra
 ## A sales tracker for small business owners.
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 11 06](https://user-images.githubusercontent.com/25287442/228870512-7853526f-3572-4440-8ba4-61fa1a1d892f.png | width=100 ) ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 01 22](https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png | width=100)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 11 06](https://user-images.githubusercontent.com/25287442/228870512-7853526f-3572-4440-8ba4-61fa1a1d892f.png | width=100 ) 
+
+![Simulator Screen Shot - iPhone 14 Pro - 2023-03-30 at 14 01 22](https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png | width=100)
 
 ### Sales, Wholesale Orders, & Total Profit
 - Log sales info (items sold, customer reference, sale price, etc...) 
