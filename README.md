@@ -15,7 +15,6 @@
 
 
 
-<div align="center">
   
   <p float="left">
 
@@ -25,7 +24,6 @@
   <img src="https://user-images.githubusercontent.com/25287442/228874172-d5036125-8c54-4542-a481-ed3f95f996fc.png" alt="" width="200"/>
 
   </p>
-</div>
 
 ### 📊 Sales History & Forecasting
 - 📜 Ability to view past sales information (+ delete sale function)
