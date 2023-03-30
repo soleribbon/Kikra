@@ -2,7 +2,7 @@
 ## A sales tracker for small business owners.
 
 <img src="https://user-images.githubusercontent.com/25287442/228870512-7853526f-3572-4440-8ba4-61fa1a1d892f.png" alt="drawing" width="200"/>
-<img src="[https://user-images.githubusercontent.com/25287442/228870512-7853526f-3572-4440-8ba4-61fa1a1d892f.png](https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png)" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png" alt="drawing" width="200"/>
 
 
 ### Sales, Wholesale Orders, & Total Profit
