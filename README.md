@@ -1,21 +1,4 @@
-<!-- Added CSS for background colors and additional styling -->
-<style>
-  .section {
-    padding: 30px;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
 
-  h1, h2 {
-    color: #333;
-  }
-
-  h3 {
-    color: #666;
-  }
-</style>
 
 <div class="section">
   <h1>🚀 Kikra</h1>
