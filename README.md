@@ -1,5 +1,5 @@
 <div class="section">
-  <h1>🚀 Kikra</h1>
+  <h1>Kikra</h1>
   <h2>The stylish sales tracker for savvy small business owners</h2>
 
   
