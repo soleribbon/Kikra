@@ -7,13 +7,15 @@
     <img src="https://user-images.githubusercontent.com/25287442/228870592-67978c76-aae7-4599-94fa-e60cbdc10b32.png" alt="" width="200"/>
   </p>
 
+  <divider>
   <h3>💼 Sales, Wholesale Orders, & Total Profit</h3>
   <ul>
     <li>✅ Log sales info (items sold, customer reference, sale price, etc...)</li>
     <li>🛍️ Log wholesale orders (store/vendor name, items, quantity, etc...)</li>
     <li>💰 Easily view calculated Total Profit</li>
   </ul>
-  
+    <divider>
+
   <p float="left">
     <img src="https://user-images.githubusercontent.com/25287442/228870375-92e69395-1b33-4b6b-95de-7be39f9ec479.png" alt="" width="200"/>
     <img src="https://user-images.githubusercontent.com/25287442/228874064-ab6d0672-dcfe-4712-acfc-20e6cda5fefe.png" alt="" width="200"/>
