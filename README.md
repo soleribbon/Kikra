@@ -1,10 +1,3 @@
-<style>
- img {
-   background: #f0f0f0;
-   padding: 10px;
- }
- </style> 
-
 <div class="section">
   <h1>🚀 Kikra</h1>
   <h2>The stylish sales tracker for savvy small business owners</h2>
