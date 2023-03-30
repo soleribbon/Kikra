@@ -1,9 +1,10 @@
 # Kikra
 ## A sales tracker for small business owners.
 
-### 2 Functions: Sales & Wholesale Orders 
+### Sales, Wholesale Orders, & Total Profit
 - Log sales info (items sold, customer reference, sale price, etc...) 
 - Log wholesale order (store/vendor name, items, quantity, etc...) 
+- Easily view calculated Total Profit 
 
 ### Sales History & Forecasting 
 - Ability to view past sales information (+ delete sale function)
