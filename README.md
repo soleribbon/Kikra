@@ -25,13 +25,13 @@
   </p>
 
       
-  <h3>📊 Sales History & Forecasting</h3>
+  <h3>📊 History & Forecasting</h3>
   <ul>
     <li>📜 Ability to view past sales information (+ delete sale function)</li>
     <li>📈 Sales bar graph with variable time periods</li>
     <li>🧠 Revenue forecast algorithm predicts your next month's revenue!</li>
   </ul>
 
-  <p><a href="https://raviheyne.com">🌐 VITO SOFTWARE</a></p>
+  <p><a href="https://raviheyne.com">VITO SOFTWARE</a></p>
 </div>
 
